@@ -1,0 +1,44 @@
+Postman-API-Level-2_1
+
+Aufgabe 1
+
+    - Wie lange hat der Aufruf gedauert? 
+        111ms
+
+    - Wieviele Planeten bekommst du als Antwort?
+        60
+
+    - Wie lautet der Name des vorletzten Planeten?
+        Coruscant
+
+    - Wie ist das Klima (climate) des Planten Hoth?
+        frozen
+
+    - Versuche selbst, die 3. Seite (page=3) aufzurufen.
+    - Wie lautet der Name des zweiten Planeten auf dieser Seite?
+        Corellia
+
+Aufgabe 2
+    - Wer ist die erste Person in der Antwort?
+        Luke Skywalker
+
+    - Rufe sein Raumschiff ab - wie heißt es?
+        X-wing und Imperial shuttle
+
+    - Wie lautet die Haarfarbe und die Augenfarbe der letzten Person aus der Antwort?
+        Haarfabe: auburn, white / Augenfarbe: blue-gray
+
+    - Rufe die Seite 3 ab.
+        - Wer steht dort ganz oben?
+            Boba Fett
+
+        - In welchen Filmen kommt die Person vor?
+            "The Empire Strikes Back", "Return of the Jedi" und "Attack of the Clones" 
+            
+    - Suche nach Prinzessin Leia.
+    Wie man einen Suchtext im Request mitgeben kann, findest du in der [Dokumentation](https://swapi.dev/documentation)
+        - Wie groß ist sie?
+            1,5m
+
+        - Was ist ihr Heimatplanet?
+            Alderaan
