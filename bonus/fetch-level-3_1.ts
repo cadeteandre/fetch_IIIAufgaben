@@ -29,8 +29,8 @@ async function createCountryContainer(country: ICountry): Promise<HTMLDivElement
             <img src="${country.flags.svg}" alt="${country.flags.alt}">
         </div>
         <div class="countryData">
-            <p><span class="bold__text">Population:</span> ${country.population}</p>
-            <p><span class="bold__text">Surface area:</span> ${country.area} m</p>
+            <p><span class="bold__text">Population:</span> ${country.population.toLocaleString('de-DE')}</p>
+            <p><span class="bold__text">Area:</span> ${country.area.toLocaleString('de-DE')} km²</p>
             <p><span class="bold__text">Capital:</span> ${country.capital}</p>
             <p><span class="bold__text">Independent:</span> ${country.independent ? 'Yes' : 'No'}</p>
         </div>

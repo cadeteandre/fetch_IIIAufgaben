@@ -19,7 +19,7 @@ export interface ICountry {
     latlng?:       number[];
     landlocked?:   boolean;
     borders?:      string[];
-    area?:         number;
+    area:         number;
     demonyms?:     Demonyms;
     flag?:         string;
     maps?:         Maps;
